@@ -1,22 +1,36 @@
+<!-- page 96 (to define the character encoding used in the file) -->
+@charset "UTF-8";
+
+<!-- page 118 (@fontface info) -->
+@font-face {
+src: url(champagne.woff) format('woff'), url(champagne.ttf) format('truetype');
+src: url(1942.woff) format('woff'), url(1942.ttf) format('truetype');
+src: url(DobkinPlain.woff) format('woff'), url(DobkinPlain.ttf) format('truetype');
+}
+
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
    Case Problem 1
-   
+
    PHCT Typographic Style Sheet
-   Author: 
-   Date:   
-   
+   Author: Stephanie King
+   Date:   09/14/2017
+
    Filename: ph_styles.css
 
 */
 
 
 /* Structural Styles */
-
-
-
-
+html {
+  background-color: hsl(91, 8%, 56%);
+}
+body {
+  background-color: hsl(58, 31%, 84%);
+  <!-- page 117 (font family info) -->
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
 /* Navigation Styles */
 
 
@@ -28,4 +42,3 @@
 
 
 /* Description List Styles */
-
