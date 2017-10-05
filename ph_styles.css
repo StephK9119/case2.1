@@ -84,19 +84,19 @@ section.playbill>h1 {
   padding: 20px 0px 10px 20px;
 }
 
-section id#play1 class#playbill {
+section id#play1> class#playbill {
   background-color: hsl(240, 100%, 88%);
 }
 
-section id#play2 class#playbill {
+section id#play2> class#playbill {
   background-color: hsl(25, 88%, 73%);
 }
 
-section id#play3 class#playbill {
+section id#play3> class#playbill {
   background-color: hsl(0, 100%, 75%);
 }
 
-section id#play4 class#playbill {
+section id#play4> class#playbill {
   background-color: hsl(296, 86%, 86%);
 }
 
